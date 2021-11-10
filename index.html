@@ -38,7 +38,9 @@
         <div class="container p-2">
             <!-- portfolio text -->
             <!-- check fs -->
-            <!-- buttons to center + i'm not sure about the sizes EDIT to add  btn-sm-->
+            <!-- buttons to center + i'm not sure about the sizes 
+                EDIT to add  btn-sm
+                EDIT 2- actually they might be standarn, i just need more space btwn-->
             <div class="fs-3 text-uppercase text-center"> Portfolio</div>
             <!-- portfolio cards-->
             <!-- ROW 01 -->
@@ -159,8 +161,44 @@
                 <button class="btn btn-outline-light btn-sm" type="submit"><i class="bi bi-download"></i>&nbsp;Download</button>
             </div>
         </div>
+        <!-- contact me form -->
         <div>
-            <!-- contact me form -->
+            <div class="container pt-4">
+                <div class="col">
+                    <div id="contact-me" class="h3 text-uppercase text-center">Contact me</div>
+                    <form action="#" class="row p-3 gy-2">
+                        <!-- first name-->
+                        <div class="col-6">
+                            <label class="form-label" for="first-name">First name</label>
+                            <input class="form-control" type="text" id="first-name" placeholder="Enter your first name..." required>
+                        </div>
+                        <!-- last name-->
+                        <div class="col-6">
+                            <label class="form-label" for="last-name">Last name</label>
+                            <input class="form-control" type="text" id="last-name" placeholder="Enter your last name..." required>
+                        </div>
+                        <!-- email -->
+                        <div class="col-6">
+                            <label class="form-label" for="e-mail">Email address</label>
+                            <input class="form-control" type="email" id="e-mail" placeholder="name@example.com" required>
+                        </div>
+                        <!-- phone number -->
+                        <div class="col-6">
+                            <label class="form-label" for="phone-number">Phone Number</label>
+                            <input class="form-control" type="number" id="phone-number" placeholder="(123) 456-7890" required>
+                        </div>
+                        <!-- message -->
+                        <div class="col-12">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message here..." required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-info text-dark" type="submit"><i class="bi bi-send"></i>&nbsp;Send</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
         </div>
     </main>
     <!-- footer -->
